@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE logbooks SYSTEM "logbooks.dtd">
+<logbooks>
+	
+	<book>
+		<title>Harry Potter and the Philosopher's Stone</title>
+		<year>1997</year>
+		<details>
+			<writer>J.K Rowling</writer>
+			<age>51</age>
+			</details>
+			<publisher>
+				<company>Bloomsbury Publishing</company>
+				<location>London</location>
+				<company>Arthur A. Levine Books</company>
+				<location>New York</location>
+				</publisher>
+				</book>
+				
+				<book>
+		<title>Harry Potter and The Chamber of Secrets</title>
+		<year>1998</year>
+		<details>
+			<writer>J.K Rowling</writer>
+			<age>51</age>
+			</details>
+			<publisher>
+				<company>Bloomsbury Publishing</company>
+				<location>London</location>
+				<company>Arthur A. Levine Books</company>
+				<location>New York</location>
+				</publisher>
+				</book>
+				
+				<book>
+		<title>Harry Potter and Prisoner of Azkaban</title>
+		<year>1999</year>
+		<details>
+			<writer>J.K Rowling</writer>
+			<age>51</age>
+			</details>
+			<publisher>
+				<company>Bloomsbury Publishing</company>
+				<location>London</location>
+				<company>Arthur A. Levine Books</company>
+				<location>New York</location>
+				</publisher>
+				</book>
+				
+				<book>
+		<title>Harry Potter and Goblet of Fire</title>
+		<year>2000</year>
+		<details>
+			<writer>J.K Rowling</writer>
+			<age>51</age>
+			</details>
+			<publisher>
+				<company>Bloomsbury Publishing</company>
+				<location>London</location>
+				<company>Arthur A. Levine Books</company>
+				<location>New York</location>
+				</publisher>
+				</book>
+				</logbooks>

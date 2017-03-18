@@ -1,0 +1,41 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT logbooks (book)+>
+<!ATTLIST logbooks
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT book (title,year,details,publisher)>
+<!ATTLIST book
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT title (#PCDATA)>
+<!ATTLIST title
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT year (#PCDATA)>
+<!ATTLIST year
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT details (writer,age)>
+<!ATTLIST details
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT publisher (company|location)+>
+<!ATTLIST publisher
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT writer (#PCDATA)>
+<!ATTLIST writer
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT age (#PCDATA)>
+<!ATTLIST age
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT company (#PCDATA)>
+<!ATTLIST company
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT location (#PCDATA)>
+<!ATTLIST location
+    xmlns CDATA #FIXED ''>
