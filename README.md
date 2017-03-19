@@ -1,6 +1,6 @@
 # webservice - XML & DTD
 
-<!DOCTYPE logbooks SYSTEM "logbooks.dtd">
+        <!DOCTYPE logbooks SYSTEM "logbooks.dtd">
 
 1. DTD diawali dengan <! DOCTYPE pembatas atau delimiter.
 2. logbooks sebagai nama root elemen
@@ -52,3 +52,5 @@ Untuk tugas kali ini, saya memakai DTD eksetrnal, jadi DTD dideklarasikan diluar
     
   REFERENSI:
     http://www.w3ii.com/xml/default.html
+    
+    Restiyana Dwi Astuti (1154077) D4 TI 2B
