@@ -17,8 +17,7 @@ isi dari file tgs1.dtd adalah
     xmlns CDATA #FIXED ''> // pada baris ini menggunakan kata kunci #fixed, dimana hal inin menunjukan bahwa nilai untuk nama atribut dari elemen <book>
 <!ELEMENT book (title,year,details,publisher)> // pada baris ini, book adalah elemen induk, sedangkan title, year, details, publisher adalah anak elemen.
 <!ATTLIST book
-    xmlns CDATA #FIXED ''>  // pada baris ini menggunakan kata kunci #fixed, dimana hal ini menunjukan bahwa nilai untuk nama atribut dari elemen <title,year,details,publisher>
-    CDATA adalah teks yang tidak akan bisa parsed oleh parser, tag didalam teks tidak akan diperlakukan sebagai markup dan entitinya tidak akan membesar/meluas.
+    xmlns CDATA #FIXED ''>  // pada baris ini menggunakan kata kunci #fixed, dimana hal ini menunjukan bahwa nilai untuk nama atribut dari elemen <title,year,details,publisher>, CDATA adalah teks yang tidak akan bisa parsed oleh parser, tag didalam teks tidak akan diperlakukan sebagai markup dan entitinya tidak akan membesar/meluas.
 
 <!ELEMENT title (#PCDATA)> // pada baris ini mendefinisikan nama elemen menjadi tipe #PCDATA sedangkan #PCDATA itu sendiri berarti data yang bisa mengurangi teksnya.
 <!ATTLIST title
